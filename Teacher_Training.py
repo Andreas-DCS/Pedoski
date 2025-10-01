@@ -2,7 +2,7 @@ import os
 os.environ['TMPDIR'] = '/tmp'
 import numpy as np
 import matplotlib.pyplot as plt
-from sklearn.metrics import classification_report
+from sklearn.metrics import classification_report 
 from cv2 import imread, resize
 from tensorflow.keras.models import Model, load_model
 from tensorflow.keras.layers import GlobalAveragePooling2D, Dense, Dropout, BatchNormalization, MaxPooling2D, SpatialDropout2D
@@ -123,3 +123,4 @@ plt.yticks(tick_marks, lesion_names)
 plt.ylabel('True label')
 plt.xlabel('Predicted label')
 plt.savefig('confusion_matrix.png', dpi=600)
+
