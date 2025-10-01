@@ -1,5 +1,5 @@
 <h1>Model Training</h1>
-The teacher models are trained using <b>teacher_training.py</b>.  
+The teacher models are trained using <b>teacher_training.py</b>.<br>
 Once the teacher models are trained, the student model can be trained using <b>knowledge_distillation_training.py</b>.  
 
 <h1>Pre-trained Model</h1>
