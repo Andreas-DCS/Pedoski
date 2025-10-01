@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from cv2 import imread, resize
-import tensorflow.compat.v1 as tf 
+import tensorflow.compat.v1 as tf  
 from tensorflow.keras.utils import to_categorical
 from sklearn.utils.class_weight import compute_class_weight
 from tensorflow.keras.callbacks import ModelCheckpoint, ReduceLROnPlateau
@@ -305,3 +305,4 @@ plt.ylabel("Loss")
 plt.legend(["Train", "val"], loc="upper left")
 plt.savefig("model_result.png")
 plt.show()
+
