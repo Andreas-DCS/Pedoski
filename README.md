@@ -1,4 +1,4 @@
-<h1Model Training</h1>
+<h1>Model Training</h1>
 The teacher models are trained using **teacher_training.py**.  
 Once the teacher models are trained, the student model can be trained using **knowledge_distillation_training.py**.  
 
